@@ -106,7 +106,9 @@ export const transformations: Transformation[] = [
   },
 ];
 
-export const testimonials = [
+type Testimonial = { quote: string; name?: string };
+
+export const testimonials: Testimonial[] = [
   { quote: "Lifts have been feeling insane — I'm actually morphing." },
   {
     quote:
